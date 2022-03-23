@@ -128,7 +128,7 @@ const targetsBarChart: ChartType = {
             }
         }
     },
-    colors: ['#5369f8', '#43d39e', '#f77e53', '#ffbe0b'],
+    colors: ['#000000', '#43d39e', '#f77e53', '#ffbe0b'],
 };
 
 const salesDonutChart: ChartType = {
@@ -144,7 +144,7 @@ const salesDonutChart: ChartType = {
         height: 298,
         type: 'donut',
     },
-    colors: ['#5369f8', '#43d39e', '#f77e53', '#ffbe0b'],
+    colors: ['#000000', '#43d39e', '#f77e53', '#ffbe0b'],
     legend: {
         show: true,
         position: 'right',

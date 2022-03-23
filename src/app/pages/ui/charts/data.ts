@@ -54,7 +54,7 @@ const linewithDataChart: ChartType = {
             show: false
         }
     },
-    colors: ['#5369f8', '#43d39e'],
+    colors: ['#000000', '#43d39e'],
     dataLabels: {
         enabled: true,
     },
@@ -235,7 +235,7 @@ const stackedAreaChart: ChartType = {
             show: false
         }
     },
-    colors: ['#5369f8', '#43d39e', '#f77e53'],
+    colors: ['#000000', '#43d39e', '#f77e53'],
     dataLabels: {
         enabled: false
     },
@@ -314,7 +314,7 @@ const basicColumChart: ChartType = {
         width: 2,
         colors: ['transparent']
     },
-    colors: ['#5369f8', '#43d39e', '#f77e53'],
+    colors: ['#000000', '#43d39e', '#f77e53'],
     series: [{
         name: 'Net Profit',
         data: [44, 55, 57, 56, 61, 58, 63, 60, 66]
@@ -372,7 +372,7 @@ const columnlabelChart: ChartType = {
             show: false
         }
     },
-    colors: ['#5369f8'],
+    colors: ['#000000'],
     plotOptions: {
         bar: {
             dataLabels: {
@@ -481,7 +481,7 @@ const mixedChart = {
             show: false
         }
     },
-    colors: ['#5369f8', '#43d39e'],
+    colors: ['#000000', '#43d39e'],
     stroke: {
         width: 3,
         curve: 'smooth'
@@ -559,7 +559,7 @@ const basicBarChart: ChartType = {
     series: [{
         data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380]
     }],
-    colors: ['#5369f8'],
+    colors: ['#000000'],
     xaxis: {
         // tslint:disable-next-line: max-line-length
         categories: ['South Korea', 'Canada', 'United Kingdom', 'Netherlands', 'Italy', 'France', 'Japan', 'United States', 'China', 'Germany'],
@@ -593,7 +593,7 @@ const nagativeValueBarChart: ChartType = {
             show: false
         }
     },
-    colors: ['#5369f8', '#43d39e'],
+    colors: ['#000000', '#43d39e'],
     plotOptions: {
         bar: {
             horizontal: true,
@@ -685,7 +685,7 @@ const lineColumAreaChart: ChartType = {
             columnWidth: '50%'
         }
     },
-    colors: ['#5369f8', '#43d39e', '#f77e53'],
+    colors: ['#000000', '#43d39e', '#f77e53'],
     series: [{
         name: 'Team A',
         type: 'column',
@@ -780,7 +780,7 @@ const multipleYAxisChart: ChartType = {
         type: 'line',
         data: [20, 29, 37, 36, 44, 45, 50, 58]
     }],
-    colors: ['#5369f8', '#43d39e', '#f77e53'],
+    colors: ['#000000', '#43d39e', '#f77e53'],
     xaxis: {
         categories: [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016],
         axisBorder: {
@@ -917,7 +917,7 @@ const simpleBubbleChart: ChartType = {
             enabled: false
         }
     },
-    colors: ['#5369f8', '#43d39e', '#f77e53'],
+    colors: ['#000000', '#43d39e', '#f77e53'],
     xaxis: {
         tickAmount: 12,
         type: 'category',
@@ -951,7 +951,7 @@ const dBubbleChart: ChartType = {
             show: false
         }
     },
-    colors: ['#5369f8', '#43d39e', '#f77e53'],
+    colors: ['#000000', '#43d39e', '#f77e53'],
     dataLabels: {
         enabled: false
     },
@@ -1134,7 +1134,7 @@ const scatterXYChart: ChartType = {
             [16.4, 0]
         ]
     }],
-    colors: ['#5369f8', '#43d39e', '#f77e53'],
+    colors: ['#000000', '#43d39e', '#f77e53'],
     xaxis: {
         tickAmount: 10,
         labels: {
@@ -1227,7 +1227,7 @@ const scatterChart: ChartType = {
     dataLabels: {
         enabled: false
     },
-    colors: ['#5369f8', '#43d39e', '#f77e53', '#1ce1ac', '#25c2e3', '#ffbe0b'],
+    colors: ['#000000', '#43d39e', '#f77e53', '#1ce1ac', '#25c2e3', '#ffbe0b'],
     grid: {
         borderColor: '#f1f3fa',
         xaxis: {
@@ -1278,7 +1278,7 @@ const simplePieChart: ChartType = {
     },
     series: [44, 55, 41, 17, 15],
     labels: ['Series 1', 'Series 2', 'Series 3', 'Series 4', 'Series 5'],
-    colors: ['#5369f8', '#43d39e', '#f77e53', '#1ce1ac', '#25c2e3'],
+    colors: ['#000000', '#43d39e', '#f77e53', '#1ce1ac', '#25c2e3'],
     legend: {
         show: true,
         position: 'bottom',
@@ -1325,7 +1325,7 @@ const gradientDonutChart: ChartType = {
         enabled: false
     },
     labels: ['Series 1', 'Series 2', 'Series 3', 'Series 4', 'Series 5'],
-    colors: ['#5369f8', '#43d39e', '#f77e53', '#1ce1ac', '#25c2e3'],
+    colors: ['#000000', '#43d39e', '#f77e53', '#1ce1ac', '#25c2e3'],
     responsive: [{
         breakpoint: 600,
         options: {
@@ -1360,7 +1360,7 @@ const patternedDonutChart: ChartType = {
         width: 2,
     },
     series: [44, 55, 41, 17, 15],
-    colors: ['#5369f8', '#43d39e', '#f77e53', '#1ce1ac', '#25c2e3'],
+    colors: ['#000000', '#43d39e', '#f77e53', '#1ce1ac', '#25c2e3'],
     labels: ['Comedy', 'Action', 'SciFi', 'Drama', 'Horror'],
     dataLabels: {
         dropShadow: {
@@ -1417,7 +1417,7 @@ const basicRadialBarChart: ChartType = {
             }
         },
     },
-    colors: ['#5369f8'],
+    colors: ['#000000'],
     series: [70],
     labels: ['CRICKET'],
 };
@@ -1448,7 +1448,7 @@ const multipleRadialBars = {
             }
         }
     },
-    colors: ['#5369f8', '#43d39e', '#f77e53', '#1ce1ac'],
+    colors: ['#000000', '#43d39e', '#f77e53', '#1ce1ac'],
     series: [44, 55, 67, 83],
     labels: ['Apples', 'Oranges', 'Bananas', 'Berries'],
 };
